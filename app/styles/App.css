@@ -1,0 +1,26 @@
+.backgroundDark {
+  background-color: #383838 !important;
+}
+
+.backgroundLight {
+  background-color: #FFF !important;
+}
+
+.background {
+  background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/06/Free-grey-wallpaper-HD-background-download.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headerColor {
+  color: '#FFF'
+}
+
+.textColor {
+  color: '#101010'
+}
+
+.dark-toast{
+  background: #323232 !important;
+  color: #fff !important;
+}

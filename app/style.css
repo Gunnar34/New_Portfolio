@@ -1,0 +1,149 @@
+.post-title em {
+    background: #d9ead3;
+    color: #1db7a9;
+    padding: 0em 0.3em 0em;
+    margin: 0.1em;
+    font-style: normal;
+}
+
+.offWhite {
+  background-color: #F3F3F3
+}
+
+.teal {
+  background-color: #1db7a9
+}
+
+.skill-item {
+   float:left;
+   font-size:0.8em;
+}
+
+.skill-item h4 {
+   font-size:20px;
+   font-weight:bold;
+}
+
+.skill-item ul{
+   list-style:none;
+   padding-left:0;
+   font-size:16px;
+}
+
+.skill-item ul li {
+   display:inline-block;
+   float:left;
+   clear:both;
+}
+
+.skill-item ul ul {
+   padding-left:2em;
+}
+
+.skill-item ul li em {
+   background: #1db7a9;
+   display:inline-block;
+   float:left;
+   color:#fff;
+   padding:0.2em 1em 0.2em;
+   margin:0.2em;
+   clear:both;
+   font-style:normal;
+   box-shadow:1px 1px 1px #ccc;
+}
+
+.skill-item ul ul li em {
+   background: #d9ead3;
+   color: #1db7a9;
+}
+
+.contact-banner {
+  background:#1db7a9;
+  color:#d9ead3;
+  text-align:center;
+}
+
+.contact-banner p {
+  padding:20px;
+}
+
+.contact-banner p em {
+    color:#fff;
+    font-weight:bold;
+    font-style:normal;
+}
+
+.contact-banner a {
+  color:#fff;
+  font-weight:bold;
+  font-style:normal;
+  text-decoration: underline;
+}
+
+.portfolio_item {
+	left: right;
+    margin: 0 0 20px 0;
+    padding:20px 20px 0 20px;
+    box-shadow:1px 2px 2px #eaeaea;
+    border:1px solid #eaeaea;
+}
+
+.portfolio_item h2 {
+    font-size: 24px;
+    margin: 20px 0 20px 0;
+    text-align: right;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+
+.portfolio_item h2 a {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.portfolio_item .role_wrapper {
+    border-bottom: 1px dotted #ccc;
+    position: relative;
+    margin-bottom:20px;
+}
+
+.portfolio_item .role {
+    float: left;
+    color: #1db7a9;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform:uppercase;
+    margin: 16px 10px 10px 10px;
+    opacity:0.5;
+}
+
+.portfolio_item .role_title {
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+    color: #1db7a9;
+    line-height: 24px;
+    text-align: right;
+}
+
+.portfolio_item span.role_skills {
+    font-size: 18px;
+    color: #a6a6a6;
+}
+
+.clearfix:after {
+   visibility: hidden;
+   display: block;
+   font-size: 0;
+   content: " ";
+   clear: both;
+   height: 0;
+ }
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
