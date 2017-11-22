@@ -60,9 +60,9 @@ export default class Team extends React.Component {
         <div className="row">
           <div style={{marginTop: '20px'}} className="col l8 s12 portfolio_item">
             <img style={{width: '100%', marginTop: '10px'}} src={Abamath} />
-            <h2><span style={{color: 'grey', fontSize: '14px'}} target="_blank">(visit site)</span > Abamath - Check-In</h2>
-              <div className="role_wrapper clearfix">
-                <p className="role">Role</p>
+            <h2><a href="http://abamath-demo.herokuapp.com/#!/" target="_blank">(visit site)</a> Abamath - Check-in</h2>
+            <div className="role_wrapper clearfix">
+              <p className="role">Role</p>
                 <p className="role_title">Software Dev - Front End<br />
                   <span className="role_skills">Angular.js, Materialize, HTML5, CSS3, SCSS</span>
                 </p>

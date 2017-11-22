@@ -16,7 +16,7 @@ export default class Home extends React.Component {
           </div>
           <div className="col s12">
             <h3 className="post-title">I build <em>responsive</em>, <em>maintainable</em> and <em>interactive</em> web applications</h3>
-            <h5>that run <em>across devices</em>, <em>platforms</em>, and <em>browsers</em>.</h5>
+            <h5>that run across<em>devices</em>, <em>platforms</em>, and <em>browsers</em>.</h5>
           </div>
           <div className="col s12">
             <h3 className="center-align">Technologies I build with</h3>
@@ -79,7 +79,8 @@ export default class Home extends React.Component {
             </div>
           </div>
           <div className="col s12">
-            <em><b>*</b> This site is built with these technologies</em>
+            <em><b>*</b> This site is built with these technologies</em><br/>
+            <em>Find the source code on <a href="https://github.com/Gunnar34/New_Portfolio">My Github</a></em>
           </div>
           <div className="col s12">
             <div className="contact-banner">
