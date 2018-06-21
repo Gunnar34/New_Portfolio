@@ -41,7 +41,7 @@ export default class Home extends React.Component {
                 <h4>Front End</h4>
                 <ul className="">
                   <li><em><b>*</b>HTML5</em></li>
-                  <li><em><b>*</b><b>*</b>CSS3</em>
+                  <li><em><b>*</b>CSS3</em>
                     <ul>
                       <li><em><b>*</b>Materialize</em></li>
                       <li><em>Bootstrap</em></li>

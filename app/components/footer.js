@@ -22,7 +22,7 @@ export default class BaseFooter extends React.Component {
             <li><a className="grey-text text-lighten-3" href="/">Home</a></li>
             <li><a className="grey-text text-lighten-3" href="/portfolio">Portfolio</a></li>
             <li><a className="grey-text text-lighten-3" href="/resume">Resume</a></li>
-            <li><a className="grey-text text-lighten-3" href="/contact">Contact Us</a></li>
+            <li><a className="grey-text text-lighten-3" href="/contact">Contact</a></li>
           </ul>
         }
         className=""
